@@ -12,7 +12,15 @@
 ## 安装步骤
 
 1. 确保已安装 Python 3.x。
-2. 安装 Pygame 库：
+2. 创建虚拟环境：
+   ```bash
+   python -m venv venv
+   ```
+3. 启动虚拟环境：
+   ```bash
+   source myenv/bin/activate
+   ```
+4. 安装 Pygame 库：
    ```bash
    pip install pygame
    ```
